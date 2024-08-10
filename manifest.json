@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "RT削除マン",
+  "short_name": "",
+  "version": "1.0.0.0",
+  "description": "ボタンを押すことでランキングに飛ぶことができます",
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/home"],
+      "js": ["content.js"]
+    }
+  ]
+}
